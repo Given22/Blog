@@ -1,0 +1,18 @@
+<%- include('./partials/header') %>
+<section class="container" id="compose">
+  <h1>Home</h1>
+  <p><%=text %></p>
+  <% posts.forEach(function(post) { %>
+  <h2><%= post.title %></h2>
+  <!-- <p><%= post.text %></p> -->
+  <p>
+    <%= `${post.text.slice(0, 100)}` + `${post.text.length > 100 ? "..." : ''}`
+    %> <% if (post.text.length > 100) { %>
+    <a href="/post/<%= (post.title).replace(/\s+/g, '-').toLowerCase(); %>"
+      >read more</a
+    >
+    <% } %>
+  </p>
+  <% }); %>
+</section>
+<%- include('./partials/footer') %>
