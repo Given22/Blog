@@ -1,7 +1,6 @@
 # Blog
 
 * [General info](#general-info)
-* [Live](#live)
 * [Technologies](#technologies)
 * [Local start](#local-start)
 * [Appearance](#appearance)
@@ -9,10 +8,6 @@
 ## General info
   
   A simple website created with node.js was made to learn how backend page creation works, how it works, and how to write basic subpage routing. For the visual part, templates written in EJS with the help of Bootstrap were used, it built the initial knowledge that he uses when writing in React JS.
-  
-## Live
-
-  https://github.com/Given22/Blog
 
 ## Technologies
   
